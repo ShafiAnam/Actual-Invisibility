@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+        name="description"
+        content="Actual Invisibility is a premium Minecraft Paper product page showcasing true invisibility, obfuscated aliases, and polished Skript-powered stealth."
+    />
+    <title>Actual Invisibility | Premium Minecraft Plugin Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&family=Orbitron:wght@600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    />
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="site-bg" aria-hidden="true">
+        <span class="ambient-blob ambient-blob-a"></span>
+        <span class="ambient-blob ambient-blob-b"></span>
+        <span class="ambient-blob ambient-blob-c"></span>
+        <span class="ambient-beam ambient-beam-a"></span>
+        <span class="ambient-beam ambient-beam-b"></span>
+    </div>
+    <div class="topbar-progress" aria-hidden="true"><span></span></div>
+
+    <header class="topbar" id="top">
+        <div class="shell topbar-inner">
+            <a class="brand" href="#home" aria-label="Actual Invisibility home">
+                <span class="brand-mark">AI</span>
+                <span class="brand-copy">
+                    <strong>Actual Invisibility</strong>
+                    <span>Paper 1.21.11</span>
+                </span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="site-nav"
+                aria-label="Toggle navigation"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="site-nav" id="site-nav" aria-label="Primary">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#commands">Commands</a>
+                <a href="#download">Download</a>
+                <a href="#guide">Guide</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-grid shell">
+                <div class="hero-copy reveal">
+                    <div class="eyebrow">
+                        <span class="eyebrow-dot"></span>
+                        Premium stealth layer for Paper servers
+                    </div>
+
+                    <h1>
+                        True Invisibility Like Never Before
+                        <span class="title-icon" aria-hidden="true"><i data-lucide="ghost"></i></span>
+                    </h1>
+
+                    <p class="hero-text">
+                        Lock down hidden movement, fake obfuscated aliases, death and chat protection, and clean
+                        Paper-ready behavior in one polished invisibility experience built for modern Minecraft servers.
+                    </p>
+
+                    <div class="hero-actions">
+                        <button class="button button-primary ripple-target" type="button" data-download-file="actual_invisibility.sk">
+                            <i data-lucide="download"></i>
+                            <span>Download Now</span>
+                        </button>
+                        <a class="button button-secondary ripple-target" href="#guide">
+                            <i data-lucide="book-open"></i>
+                            <span>View Guide</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-meta">
+                        <div class="meta-pill">
+                            <span>Version</span>
+                            <strong>1.0</strong>
+                        </div>
+                        <div class="meta-pill">
+                            <span>Runtime</span>
+                            <strong>Paper 1.21.11</strong>
+                        </div>
+                        <div class="meta-pill">
+                            <span>Core</span>
+                            <strong>Skript-powered</strong>
+                        </div>
+                    </div>
+
+                    <div class="hero-metrics reveal">
+                        <div class="metric-card">
+                            <strong>6</strong>
+                            <span>protected surfaces</span>
+                        </div>
+                        <div class="metric-card">
+                            <strong>5s</strong>
+                            <span>alias refresh cycle</span>
+                        </div>
+                        <div class="metric-card">
+                            <strong>24/7</strong>
+                            <span>ambient stealth identity</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-points">
+                        <div class="point">
+                            <strong>Zero accidental IGN leaks</strong>
+                            <span>Chat, join, quit, death, tab, and visibility surfaces stay protected.</span>
+                        </div>
+                        <div class="point">
+                            <strong>Obfuscated alias styling</strong>
+                            <span>Magic-name presentation keeps invisible players hidden without cheap-looking hacks.</span>
+                        </div>
+                        <div class="point">
+                            <strong>Server-friendly behavior</strong>
+                            <span>Fast refresh logic, reduced reveal windows, and clean Paper compatibility.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-stage reveal">
+                    <div class="hero-orbit hero-orbit-a"></div>
+                    <div class="hero-orbit hero-orbit-b"></div>
+                    <div class="particle-field" aria-hidden="true"></div>
+
+                    <div class="showcase-frame">
+                        <span class="showcase-outline" aria-hidden="true"></span>
+                        <span class="showcase-scan" aria-hidden="true"></span>
+                        <span class="showcase-badge">
+                            <i data-lucide="sparkles"></i>
+                            <span>No compromises</span>
+                        </span>
+                        <img
+                            src="assets/ActualInvisibility.png"
+                            alt="Actual Invisibility brand shield artwork"
+                            class="hero-art"
+                        />
+                    </div>
+
+                    <div class="stage-caption">
+                        <span class="caption-chip">Obfuscated &amp;k aliasing</span>
+                        <span class="caption-chip">Hidden kills &amp; deaths</span>
+                        <span class="caption-chip">Mob targeting blocked</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="band" id="features">
+            <div class="shell">
+                <div class="section-heading reveal">
+                    <span class="section-kicker">Feature Set</span>
+                    <h2>Designed to feel invisible, not improvised.</h2>
+                    <p>
+                        Every core surface is shaped around stealth, premium presentation, and reliable Paper behavior.
+                    </p>
+                </div>
+
+                <div class="feature-grid">
+                    <article class="feature-card reveal">
+                        <span class="feature-icon"><i data-lucide="eye-off"></i></span>
+                        <h3>True invisibility</h3>
+                        <p>Invisible players stay hidden across core vanilla-facing surfaces instead of only disappearing visually.</p>
+                    </article>
+                    <article class="feature-card reveal">
+                        <span class="feature-icon"><i data-lucide="swords"></i></span>
+                        <h3>Hidden on kills and deaths</h3>
+                        <p>Death flow stays clean with protected naming so combat never breaks the illusion.</p>
+                    </article>
+                    <article class="feature-card reveal">
+                        <span class="feature-icon"><i data-lucide="shield-check"></i></span>
+                        <h3>Secure and glitch-free</h3>
+                        <p>High-priority resync logic is tuned to reduce reveal windows and avoid awkward flicker.</p>
+                    </article>
+                    <article class="feature-card reveal">
+                        <span class="feature-icon"><i data-lucide="wand-sparkles"></i></span>
+                        <h3>Magic obfuscated alias</h3>
+                        <p>The fake name layer uses premium dark styling and Minecraft magic-text flavor for believable stealth.</p>
+                    </article>
+                    <article class="feature-card reveal">
+                        <span class="feature-icon"><i data-lucide="zap"></i></span>
+                        <h3>Performance-minded refresh</h3>
+                        <p>Event-driven handling keeps the effect light while still refreshing hidden identity states smoothly.</p>
+                    </article>
+                    <article class="feature-card reveal">
+                        <span class="feature-icon"><i data-lucide="server"></i></span>
+                        <h3>Paper 1.21.11 ready</h3>
+                        <p>Built around a modern Paper setup with Skript-powered automation and practical server workflow.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="band band-alt" id="commands">
+            <div class="shell">
+                <div class="section-heading reveal">
+                    <span class="section-kicker">Command Layer</span>
+                    <h2>Fast commands for the brand, accurate workflow for the real build.</h2>
+                    <p>
+                        The page keeps the fantasy clean while still being honest about how the current Skript package is actually used.
+                    </p>
+                </div>
+
+                <div class="commands-grid">
+                    <article class="command-panel reveal">
+                        <div class="panel-header">
+                            <span class="panel-chip"><i data-lucide="command"></i><span>Branded examples</span></span>
+                            <h3>Quick Commands</h3>
+                        </div>
+                        <div class="command-list">
+                            <div class="command-row">
+                                <div class="command-top">
+                                    <code>/invis on</code>
+                                    <button class="command-copy ripple-target" type="button" data-copy-text="/invis on" aria-label="Copy /invis on">
+                                        <i data-lucide="copy"></i>
+                                    </button>
+                                </div>
+                                <span>Enable the premium invisibility mode for a player-facing command layer.</span>
+                            </div>
+                            <div class="command-row">
+                                <div class="command-top">
+                                    <code>/invis off</code>
+                                    <button class="command-copy ripple-target" type="button" data-copy-text="/invis off" aria-label="Copy /invis off">
+                                        <i data-lucide="copy"></i>
+                                    </button>
+                                </div>
+                                <span>Restore visibility and real identity when stealth mode ends.</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="command-panel reveal">
+                        <div class="panel-header">
+                            <span class="panel-chip"><i data-lucide="terminal"></i><span>Current Skript workflow</span></span>
+                            <h3>What the shipped file does today</h3>
+                        </div>
+                        <div class="command-list">
+                            <div class="command-row">
+                                <div class="command-top">
+                                    <code>/sk reload actual_invisibility</code>
+                                    <button class="command-copy ripple-target" type="button" data-copy-text="/sk reload actual_invisibility" aria-label="Copy /sk reload actual_invisibility">
+                                        <i data-lucide="copy"></i>
+                                    </button>
+                                </div>
+                                <span>Load or refresh the script after placing it into your Skript scripts folder.</span>
+                            </div>
+                            <div class="command-row">
+                                <div class="command-top">
+                                    <code>/effect give @p minecraft:invisibility 99999 0 true</code>
+                                    <button class="command-copy ripple-target" type="button" data-copy-text="/effect give @p minecraft:invisibility 99999 0 true" aria-label="Copy invisibility effect command">
+                                        <i data-lucide="copy"></i>
+                                    </button>
+                                </div>
+                                <span>Applying invisibility activates the identity-protection flow automatically.</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="band" id="preview">
+            <div class="shell preview-grid">
+                <div class="section-heading reveal preview-copy">
+                    <span class="section-kicker">Skript Preview</span>
+                    <h2>Clean excerpt, premium shell, real source.</h2>
+                    <p>
+                        This snippet is taken from the provided file and focuses on the configuration surface plus one of the invisibility protection paths.
+                    </p>
+                    <ul class="preview-notes">
+                        <li>Curated from the real `actual_invisibility.sk` source.</li>
+                        <li>Copy-ready for docs, showcases, and quick setup references.</li>
+                        <li>Syntax-highlighted with a lightweight client-side pass.</li>
+                    </ul>
+                </div>
+
+                <div class="code-shell reveal">
+                    <div class="code-shell-top">
+                        <div class="window-dots" aria-hidden="true">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span class="code-title">actual_invisibility.sk</span>
+                        <button class="copy-button ripple-target" type="button" data-copy-target="skript-code">
+                            <i data-lucide="copy"></i>
+                            <span>Copy Snippet</span>
+                        </button>
+                    </div>
+                    <pre><code id="skript-code" class="skript-code"></code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section class="band band-download" id="download">
+            <div class="shell">
+                <div class="download-wrap reveal">
+                    <div class="download-copy">
+                        <span class="section-kicker">Download</span>
+                        <h2>Ship the stealth layer straight into your server stack.</h2>
+                        <p>
+                            Download the current deliverable as `actual_invisibility.sk`, tuned for Paper `1.21.11` and presented like a premium plugin release.
+                        </p>
+                        <div class="download-specs">
+                            <div>
+                                <span>Version</span>
+                                <strong>1.0</strong>
+                            </div>
+                            <div>
+                                <span>Supported</span>
+                                <strong>Paper 1.21.11</strong>
+                            </div>
+                            <div>
+                                <span>Package</span>
+                                <strong>Skript file</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="download-actions">
+                        <button class="button button-primary button-wide ripple-target" type="button" data-download-file="actual_invisibility.sk">
+                            <i data-lucide="download"></i>
+                            <span>Download Plugin</span>
+                        </button>
+                        <a class="button button-ghost button-wide ripple-target" href="https://dsc.gg/catcherssmpofficial" target="_blank" rel="noreferrer">
+                            <i data-lucide="message-circle"></i>
+                            <span>Join Discord</span>
+                        </a>
+                        <p class="download-note">Includes the current Skript artifact used for the on-page preview.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="band" id="guide">
+            <div class="shell">
+                <div class="section-heading reveal">
+                    <span class="section-kicker">Setup Guide</span>
+                    <h2>Three steps from download to invisible gameplay.</h2>
+                    <p>
+                        Fast enough for a fresh test server, clean enough for a polished production stack.
+                    </p>
+                </div>
+
+                <div class="guide-grid">
+                    <article class="guide-step reveal">
+                        <span class="step-count">01</span>
+                        <span class="step-icon"><i data-lucide="package"></i></span>
+                        <h3>Install the file</h3>
+                        <p>Place <code>actual_invisibility.sk</code> inside your <code>/plugins/Skript/scripts/</code> folder.</p>
+                    </article>
+                    <article class="guide-step reveal">
+                        <span class="step-count">02</span>
+                        <span class="step-icon"><i data-lucide="refresh-cw"></i></span>
+                        <h3>Reload or restart</h3>
+                        <p>Use <code>/sk reload actual_invisibility</code> or restart the server to initialize the stealth logic.</p>
+                    </article>
+                    <article class="guide-step reveal">
+                        <span class="step-count">03</span>
+                        <span class="step-icon"><i data-lucide="eye"></i></span>
+                        <h3>Trigger invisibility</h3>
+                        <p>Apply the invisibility effect and let the script automatically handle aliases, visibility, and message protection.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="shell footer-grid">
+            <div class="footer-brand">
+                <h2>Actual Invisibility</h2>
+                <p>True invisibility. No compromises. Premium stealth presentation for modern Minecraft servers.</p>
+            </div>
+
+            <div class="footer-meta">
+                <span><i data-lucide="shield"></i><span>Built for Paper 1.21.11</span></span>
+                <span><i data-lucide="monitor"></i><span>Product page crafted for a premium launch feel</span></span>
+                <span><i data-lucide="sparkles"></i><span>Download includes the current Skript artifact</span></span>
+            </div>
+
+            <div class="footer-links">
+                <a href="#download">Download</a>
+                <a href="#commands">Commands</a>
+                <a href="#guide">Guide</a>
+                <a href="https://dsc.gg/catcherssmpofficial" target="_blank" rel="noreferrer">Discord</a>
+                <a class="soon-link" href="#footer">GitHub Soon</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
